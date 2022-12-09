@@ -13,7 +13,7 @@ import time
 
 progress_file = 'progress_sizes.txt'
 
-with open('products_old.pickle', 'rb') as file:
+with open(fn.path_to_programm + 'products_old.pickle', 'rb') as file:
     products = pickle.load(file)
 
 @logger.catch
